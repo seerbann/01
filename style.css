@@ -8,15 +8,16 @@ ul{
 body{
     margin: 0;
     padding: 0;
+
 }
 .header{
-    height: 170px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
-
 }
 .up
 {
+    height: fit-content;
     background-color: #1F2937;
 }
 .logo{
@@ -59,4 +60,53 @@ ul{
 }
 .text{
     max-width: 300px;
+}
+.middle-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.container {
+    height: 300px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .child {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+  }
+.info{
+    max-width: 150px;
+    text-align: center;
+
+}
+.text2{
+    display: flex;
+    max-width: 150px;
+    max-height: 150px;
+}
+.quote{
+    display: flex;
+    width: fit-content;
+    height: 475px;
+    margin-bottom:150px;
+    background-color: #E5E7EB;
+
+}
+.quote-text{
+    font-size:36px;
+    font-weight:italic;
+    
 }
