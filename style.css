@@ -1,3 +1,5 @@
+
+
 ul a {
     text-decoration: none;
     color: #E5E7EB;  
@@ -99,14 +101,68 @@ ul{
 }
 .quote{
     display: flex;
-    width: fit-content;
+    justify-content: center;
     height: 475px;
-    margin-bottom:150px;
     background-color: #E5E7EB;
+    flex-shrink: 0;
+    flex-direction: column;
 
 }
 .quote-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
     font-size:36px;
     font-weight:italic;
     
+}
+.author{
+    display: flex;
+    margin-left:1500px;
+ 
+}
+.end{
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.blue-div{
+    background-color: #3882F6;
+    height: 100px;
+    width: 700px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 550px;
+    gap: 15px;
+}
+.containerul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.buton{
+    width: 80px;
+    height: 25px;
+    margin-left: 50px;
+}
+.bigtext{
+color: #F9FAF8;
+}
+.smalltext{
+    color: #F9FAF8;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    background-color: #1F2937;
+}
+.copyr{
+    color: #F9FAF8;
 }
